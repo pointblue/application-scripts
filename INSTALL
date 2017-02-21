@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+composer install
+npm install --no-bin-links
+cp ./.env.example ./.env
+php artisan key:generate
+./BUILD
+mkdir -p storage/framework/sessions
+mkdir -p storage/framework/views
+mkdir -p storage/framework/cache
+mkdir -p bootstrap/cache

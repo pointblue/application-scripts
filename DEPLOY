@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+gulp --production --gulpfile gulpfile-vendor.js
+gulp --production
+gulp --gulpfile gulpfile-deploy.js
