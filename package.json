@@ -1,5 +1,5 @@
 {
-  "name": "application-scripts",
+  "name": "pb-application-scripts",
   "version": "0.1.0",
   "description": "scripts to automate installation of Point Blue applications",
   "main": "index.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pointblue/application-scripts.git"
+    "url": "git://github.com/pointblue/pb-application-scripts.git"
   },
   "author": "datasolutions@pointblue.org",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/pointblue/application-scripts/issues"
+    "url": "https://github.com/pointblue/pb-application-scripts/issues"
   }
 }
