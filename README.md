@@ -27,7 +27,7 @@ include this repo in your application's *package.json* like so:
       ... 
       "pb-application-scripts": "git@github.com:pointblue/pb-application-scripts.git#master"
       // or, for a specific version:
-      "pb-application-scripts": "git@github.com:pointblue/pb-application-scripts.git#0.1.2"
+      "pb-application-scripts": "git@github.com:pointblue/pb-application-scripts.git#v0.1.2"
     }
 ```
 
